@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article below."
+title: "LevelSetWear: level set wear model on a fixed finite element mesh for Abaqus/Standard"
+authors:
+  - family-names: Llavori
+    given-names: Iñigo
+    affiliation: Mondragon Unibertsitatea
+license: BSD-3-Clause
+repository-code: "https://github.com/illavori/LevelSetWear"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Llavori
+      given-names: Iñigo
+      affiliation: Mondragon Unibertsitatea
+  title: "Wear simulation on a fixed mesh with level sets"
+  journal: "Tribology International"
+  year: 2026
+  notes: "Submitted"
