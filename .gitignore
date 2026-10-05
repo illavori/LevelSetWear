@@ -71,3 +71,7 @@ examples/02_contact_mindlin/immersed/*/
 # keep the reference results
 !examples/**/reference/
 !examples/**/reference/**
+
+# CSV files that the extraction scripts write next to the run (copies of figures/)
+fig1*_level_set.csv
+fig1*_mesh_motion.csv
