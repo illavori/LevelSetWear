@@ -1,5 +1,5 @@
 # ======================================================================
-# LevelSetWear, results of the fretting test of McColl et al. (example 04)
+# LevelSetWear, results of the fretting test of McColl et al. (example 05)
 #
 # Written by Inigo Llavori
 #

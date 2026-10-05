@@ -34,11 +34,11 @@ figure. On the runs of the article the scripts give the CSV files of
 |---|---|---|
 | `01_plate_with_hole` | Cut elements with the fixed cell rule against the solution of Kirsch. `makeKirsch.py` writes the 21 inputs of the article (7 grids, 3 integration rules), `extractKirsch.py` (Abaqus Python) and `postKirsch.py` extract the results, see its `README.txt` | Section 4.1, Fig. 9 |
 | `02_contact_mindlin` | Immersed contact against the Mindlin–Cattaneo and Mindlin–Deresiewicz solutions, surfaces aligned with the mesh, immersed in it (`immersed/makeImmersed.py` writes the seven cases) and the standard Abaqus contact. `extractOdb.py` (Abaqus Python) and `mindlinResults.py` extract the results | Section 4.2, Figs. 11 and 12, Tables 1 and 2 |
-| `03_block_on_ring` | Sliding wear, block-on-ring test of Cruzado et al. Level set model (`extractBOR.py`) and mesh-motion model in `mesh_motion/` (`odbSurfaces.py`, Abaqus Python, and `extractMeshMotion.py`) | Section 5.1, Fig. 15, Table 3 |
-| `04_fretting_mccoll` | Fretting wear of both bodies, test of McColl et al. Level set model (`extractMcColl.py`) and mesh-motion model in `mesh_motion/` (`extractMeshMotion.py`) | Section 5.2, Figs. 16 and 17, Table 3 |
-| `05_level_set_update` | Narrow band level set update against the exact height-function solution (Python, no Abaqus). `python paperLS.py` draws the figure of the article | Section 4.3, Fig. 13 |
+| `03_level_set_update` | Narrow band level set update against the exact height-function solution (Python, no Abaqus). `python paperLS.py` draws the figure of the article | Section 4.3, Fig. 13 |
+| `04_block_on_ring` | Sliding wear, block-on-ring test of Cruzado et al. Level set model (`extractBOR.py`) and mesh-motion model in `mesh_motion/` (`odbSurfaces.py`, Abaqus Python, and `extractMeshMotion.py`) | Section 5.1, Fig. 15, Table 3 |
+| `05_fretting_mccoll` | Fretting wear of both bodies, test of McColl et al. Level set model (`extractMcColl.py`) and mesh-motion model in `mesh_motion/` (`extractMeshMotion.py`) | Section 5.2, Figs. 16 and 17, Table 3 |
 
-The level set scripts of examples 03 and 04 also read the shipped results,
+The level set scripts of examples 04 and 05 also read the shipped results,
 `python extractBOR.py reference`, so that the figures can be redrawn
 without running Abaqus. Each script prints the numbers of the tables of the
 article and has its usage in its header.
@@ -62,7 +62,7 @@ in its CSV files. Run `python plot.py` in the folder (NumPy and Matplotlib).
 
 Requirements: Abaqus/Standard with a Fortran compiler configured for user
 subroutines (tested with Abaqus 2020 and Intel Fortran 2021) on Windows.
-Example 05 only needs Python 3 with NumPy, SciPy and Matplotlib.
+Example 03 only needs Python 3 with NumPy, SciPy and Matplotlib.
 
 ```bat
 cd examples\02_contact_mindlin\aligned

@@ -1,5 +1,5 @@
 # ======================================================================
-# LevelSetWear, worn surfaces of the mesh-motion model (example 03)
+# LevelSetWear, worn surfaces of the mesh-motion model (example 04)
 #
 # Written by Inigo Llavori
 #

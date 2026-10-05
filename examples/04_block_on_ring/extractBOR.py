@@ -1,5 +1,5 @@
 # ======================================================================
-# LevelSetWear, results of the block-on-ring test (example 03)
+# LevelSetWear, results of the block-on-ring test (example 04)
 #
 # Written by Inigo Llavori
 #

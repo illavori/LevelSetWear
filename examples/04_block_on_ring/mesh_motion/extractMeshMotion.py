@@ -1,6 +1,6 @@
 # ======================================================================
 # LevelSetWear, results of the block-on-ring test, mesh-motion model
-# (example 03)
+# (example 04)
 #
 # Written by Inigo Llavori
 #

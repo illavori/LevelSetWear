@@ -1,6 +1,6 @@
 # ======================================================================
 # LevelSetWear, results of the fretting test of McColl et al.,
-# mesh-motion model (example 04)
+# mesh-motion model (example 05)
 #
 # Written by Inigo Llavori
 #

@@ -1,5 +1,5 @@
 # ======================================================================
-# LevelSetWear, verification of the level set update (example 05)
+# LevelSetWear, verification of the level set update (example 03)
 #
 # Written by Iñigo Llavori
 #
