@@ -1,0 +1,6 @@
+-0.6 0.6 -0.03 0.01 0.000625 6 1 0.01
+-0.6 0.6 -0.01 0.05 0.000625 6 1 0.01
+LevelSetWear, written by Inigo Llavori. Lines after the data are not read.
+If you use it, please cite I. Llavori, Wear simulation on a fixed mesh with level sets
+and immersed frictional contact, submitted for publication. Mondragon Unibertsitatea.
+https://github.com/illavori/LevelSetWear       BSD 3-Clause

@@ -44,3 +44,30 @@ __pycache__/
 Thumbs.db
 desktop.ini
 .vscode/
+*.spl
+
+# LaTeX source of the documentation (only the PDF is published)
+docs/*.tex
+
+# Outputs of a run of the examples and of their scripts (the results of the
+# article are in the reference/ folders, kept below)
+examples/**/contactOut*.txt
+examples/**/wearProfile.txt
+examples/**/ContactOut_*.txt
+examples/**/DummyNodes.txt
+examples/**/hCritic.txt
+examples/**/Results/
+examples/**/*.sta
+examples/**/*_U.txt
+examples/**/*_S.txt
+examples/**/*_contact_*.txt
+examples/**/kirsch*.txt
+examples/**/fig*_*.csv
+# inputs written by the generators (makeKirsch.py, makeImmersed.py)
+examples/01_plate_with_hole/kirsch_*.inp
+!examples/01_plate_with_hole/kirsch_64.inp
+examples/02_contact_mindlin/immersed/*/
+!examples/02_contact_mindlin/immersed/reference/
+# keep the reference results
+!examples/**/reference/
+!examples/**/reference/**

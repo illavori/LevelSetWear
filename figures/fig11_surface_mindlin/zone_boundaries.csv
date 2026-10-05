@@ -1,0 +1,9 @@
+# LevelSetWear, data of Fig. 11 of
+# I. Llavori, Wear simulation on a fixed mesh with level sets
+# and immersed frictional contact,
+# submitted for publication. Mondragon Unibertsitatea.
+# https://github.com/illavori/LevelSetWear       BSD 3-Clause
+# cylinder on flat, half-contact width a = 0.091336 mm, peak pressure p0 = 836.41 MPa, friction coefficient 0.6, Q*/(mu P) = 0.5
+# stick zone boundary c (loading) and counter-slip boundary c' (unloading)
+c_over_a,cprime_over_a
+0.7071067811865476,0.8660254037844386

@@ -1,0 +1,29 @@
+# LevelSetWear, data of Fig. 9 of
+# I. Llavori, Wear simulation on a fixed mesh with level sets
+# and immersed frictional contact,
+# submitted for publication. Mondragon Unibertsitatea.
+# https://github.com/illavori/LevelSetWear       BSD 3-Clause
+# energy norm error against the element size le, hole radius r0 = 1 mm
+# rule of the cut elements: 0 cell rule n = 4 (present), 1 exact (material polygon), 2 point rule
+rule,N,le_over_r0,energy_error_pct
+0,16.0,0.25,5.36599
+0,32.0,0.125,2.7023889999999997
+0,64.0,0.0625,1.361496
+0,128.0,0.03125,0.6799608
+0,256.0,0.015625,0.33562990000000004
+0,512.0,0.0078125,0.1659544
+0,1024.0,0.00390625,0.09212359
+1,16.0,0.25,5.253742
+1,32.0,0.125,2.665342
+1,64.0,0.0625,1.3344440000000002
+1,128.0,0.03125,0.6773816
+1,256.0,0.015625,0.3426152
+1,512.0,0.0078125,0.1787491
+1,1024.0,0.00390625,0.10232530000000001
+2,16.0,0.25,5.927865000000001
+2,32.0,0.125,1.922475
+2,64.0,0.0625,0.7938778000000001
+2,128.0,0.03125,0.2277346
+2,256.0,0.015625,0.6327997
+2,512.0,0.0078125,0.45536550000000003
+2,1024.0,0.00390625,0.335162

@@ -8,12 +8,11 @@ authors:
 license: BSD-3-Clause
 repository-code: "https://github.com/illavori/LevelSetWear"
 preferred-citation:
-  type: article
+  type: unpublished
   authors:
     - family-names: Llavori
       given-names: Iñigo
       affiliation: Mondragon Unibertsitatea
-  title: "Wear simulation on a fixed mesh with level sets"
-  journal: "Tribology International"
+  title: "Wear simulation on a fixed mesh with level sets and immersed frictional contact"
   year: 2026
-  notes: "Submitted"
+  notes: "Submitted for publication"

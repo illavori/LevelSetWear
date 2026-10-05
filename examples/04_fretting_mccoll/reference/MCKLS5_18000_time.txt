@@ -1,0 +1,6 @@
+Last lines of MCKLS5_18000.dat (Abaqus/Standard 2020, one CPU)
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =   17789.    
+       SYSTEM TIME (SEC)    =   2783.3    
+       TOTAL CPU TIME (SEC) =   20573.    
+       WALLCLOCK TIME (SEC) =      20590

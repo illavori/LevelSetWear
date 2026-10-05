@@ -1,0 +1,6 @@
+Last lines of BOR20LS_3600.dat (Abaqus/Standard 2020, one CPU)
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =   56910.    
+       SYSTEM TIME (SEC)    =   9655.8    
+       TOTAL CPU TIME (SEC) =   66565.    
+       WALLCLOCK TIME (SEC) =      66424
